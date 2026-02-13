@@ -1,0 +1,8 @@
+{
+  "name": "graszoden-checkout",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@mollie/api-client": "^4.0.0"
+  }
+}
