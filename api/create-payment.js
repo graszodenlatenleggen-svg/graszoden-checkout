@@ -12,7 +12,7 @@ export default async function handler(req, res) {
       apiKey: process.env.MOLLIE_API_KEY,
     });
 
-    // Mollie requires amount as string with 2 decimals, e.g. "238.79"
+    // Mollie requires amount as string with 2 decimals
     const value = Number(amount).toFixed(2);
 
     const payment = await mollie.payments.create({
