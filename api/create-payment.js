@@ -1,4 +1,4 @@
-import mollieClient from "@mollie/api-client";
+import mollieClient from "@mollie/api-client"; 
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
